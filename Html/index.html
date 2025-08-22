@@ -1,7 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>HTML Practice</title>
+    <title>WEB Practice</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <style>
+        *{
+            background-color: darksalmon;
+            input{
+                border: 1px solid black;
+                background-color:rgb(197, 35, 35) ;
+                color: white;
+            }
+        }
+    </style>
 </head>
 <body>
 
@@ -63,11 +74,11 @@
     <h1>Task Of 20th August</h1>
     <hr>
 
-<h2>Simple Login Form</h2>
+<h2 style="font-size: 24px; font-style: italic; text-align: center;">Simple Login Form</h2>
 <form>
-Username:<input type="text" placeholder="Type Username Here"><br><br>
-Password:<input type="password" placeholder="Type Password Here"><br><br>
-<input type="Submit" value="Login">
+Username:<input type="text" placeholder="Type Username Here" style="width: 250px; height: 30px;"><br><br>
+Password:<input type="password" placeholder="Type Password Here" style="width: 250px; height: 30px;"><br><br>
+<input type="button" value="Login" style="background-color: gray; color: antiquewhite; ">
 </form>
 <h2>Registration Form</h2>
 <form>
@@ -82,7 +93,7 @@ Hobbies: <input type="checkbox" name="Reading" >Reading
         <input type="checkbox" name="Sports" >Sports
         <input type="checkbox" name="Music" >Music
         <br><br>
-        <input type="Submit" value="Register"></form>
+        <input type="button" value="Register"></form>
 <h2>Feedback Form</h2>
 <form>
 Name:<input type="text" placeholder="Username"><br><br>
@@ -95,7 +106,7 @@ Rating:<select name="Rating">
     <option value="Average">Average</option>
     <option value="Poor">Poor</option>
 </select><br><br>
-<input type="Submit" value="Submit Feedback">
+<input type="button" value="Submit">
   </form>
 </body>
 </html>
