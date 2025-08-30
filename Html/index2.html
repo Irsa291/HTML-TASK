@@ -6,8 +6,15 @@
     <title>Paragrapgh Page</title>
 </head>
 <style>
-    *{
-        background-color: cornflowerblue;
+    div{
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        border-radius: 50%;
+        text-align: right center;
+        background-color: peru;
+    padding: 50px;
+       
     }
     p{
         font-size: large;
@@ -20,12 +27,40 @@
         font-weight: bold;
         background-color: rgb(241, 98, 14);
     }
+   
+    .navbar ul{
+        display: flex;
+
+    }
+    .navbar li{
+        margin: 10px;
+    }
 </style>
 <body>
     <p class="highlight">HTML (HyperText Markup Language) is the backbone of web pages. It provides the basic structure of a website by using elements like headings, paragraphs, images, links, lists, and tables. Without HTML, a webpage cannot display content.</p><br>
     <p id="special-para">CSS (Cascading Style Sheets) is used to style and design that structure. It controls colors, fonts, layouts, backgrounds, animations, and responsiveness. CSS makes websites look attractive and user-friendly.</p><br>
     <p >👉 In short: HTML gives structure, CSS gives style. Both work together to build modern, beautiful, and interactive websites.</p>
 
+    <div>
+        
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="#Account">Acccount</a>
+            </li>
+            <li>
+                <a href="#search">Search</a>
+            </li>
+            <li>
+                <a href="#My cart">My Cart</a>
+            </li>
+            <li>
+                <a href="#contact">Contact us</a>
+            </li>
+        </ul>
+    </nav>
+    
     <a href="index.html">Click here to move back</a>
 </body>
 </html>
