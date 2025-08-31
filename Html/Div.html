@@ -1,42 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box Model</title>
 </head>
 <style>
-    #outer{
+    #outer {
         font-size: 25px;
         background-color: black;
         color: antiquewhite;
-        height: 150px;
-        width: 150px;
-        padding-left: 20px;
-      
+        height: 200px;
+        width: 200px;
+        padding: 10px;
+        text-align: center;
     }
-    #inner{
-font-size: 10px;
-background-color: antiquewhite;
-color: black;
-height: 50px;
-width: 50px;
-padding-left: 50px;
+
+    #inner {
+        font-size: 10px;
+        background-color: antiquewhite;
+        color: black;
+        height: 80px;
+        width: 100px;
+        padding: 30px;
+        margin: 20px;
+        text-align: center;
+       
     }
-    .BOX{
+
+    .BOX {
         height: 100px;
         width: 100px;
         background-color: palevioletred;
         border-radius: 50%;
-        padding: 50px;
-        margin: 50px;
-        
+        margin: 15px;
+        padding: 30px;
+        text-align: center;
+        padding-top: 35px;
+    }
+
+    .navbar {
+        height: 40px;
+        width: 300px;
+        padding: 15px;
+        background-color: rgb(189, 123, 136);
+    }
+
+    .navbar a {
+        color: black;
+        text-align: center;
+        margin: 8px;
+        display: inline-block;
+    
     }
 </style>
+
 <body>
     <div id="outer">Irsa
         <div id="inner">Ashfaq</div>
     </div>
     <div class="BOX">Eshoo!</div>
+    <div class="navbar">
+        <a href="#">Account</a>
+        <a href="#">My Cart</a>
+        <a href="#">Search</a>
+        <a href="#">Contact Us</a>
+    </div>
 </body>
+
 </html>

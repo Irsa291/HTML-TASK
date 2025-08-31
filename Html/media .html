@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+</head>
+<style>
+    div{
+        height:500px;
+        width: 1200px;
+        font-size: 40px;
+        background-color: aqua;
+    }
+    /* Desktop */
+    @media (max-width:1200px){
+        div{
+            background-color: blue;
+            width: 1100px;
+            font-size: 30px;
+        }
+    }
+    /* Tablet */
+    @media (max-width:768px){
+        div{
+            background-color: pink;
+            width: 668px;
+            font-size: 20px;
+        }
+    }
+    /* Mobile Phone */
+    @media (max-width:480px){
+        div{
+            background-color: green;
+            width: 380px;
+            font-size: 30px;
+        }
+    }
+</style>
+<body>
+    <div>
+   This is a media query.
+    </div>
+    
+</body>
+</html>
